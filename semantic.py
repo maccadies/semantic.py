@@ -58,7 +58,7 @@ model_sentence = nlp(sentence_to_compare)
 for sentence in sentences:
     similarity = nlp(sentence).similarity
 
-'''After carefukky comparing the differences between web_sm and web_md. It seems that the few entries are similar with the
+'''After carefully comparing the differences between web_sm and web_md. It seems that the few entries are similar with the
 swap of apple cat on the 4th entry. All of the numbers on the far right have changed and are in different formats. 
 Again bar the exception of some pairs including 1.0's. 
 The order of Cat, Apple, Monkey, Banana is still the same. 
